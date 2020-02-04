@@ -17,6 +17,7 @@ esac
 
 git push -u origin $date-$name
 echo -e "\nMerge with master (yes/no)\n"
+read yesorno
 case $yesorno in
 	yes)
 		git merge ${date}-$name
