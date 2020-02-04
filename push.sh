@@ -18,7 +18,7 @@ case $commitMessage in
 esac
 
 git push -u origin $date-$name
-merge
+$merge
 
 function merge {
 echo -e "Merge with master (yes/no)\n"
